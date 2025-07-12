@@ -1,0 +1,15 @@
+.textWarning {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.formLabel {
+  color: #1e3a8a;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.formControlFocus {
+  border-color: var(--primary-dark) !important;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25) !important;
+}

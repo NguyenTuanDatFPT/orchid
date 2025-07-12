@@ -1,0 +1,57 @@
+.loginBg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dbeafe 0%, #93c5fd 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginCard {
+  min-width: 350px;
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(30,58,138,0.15);
+  background: #fff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.loginLogo {
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px #dbeafe88);
+  border-radius: 50%;
+  background: #3b82f6;
+  padding: 0.5rem;
+}
+.loginTitle {
+  color: #1e3a8a;
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+.loginBtn {
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 100%);
+  border: none;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px #3b82f655;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+}
+.loginBtn:hover {
+  background: #2563eb;
+  color: #fff;
+}
+.loginLink {
+  color: #1e3a8a;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.18s;
+}
+.loginLink:hover {
+  color: #2563eb;
+}

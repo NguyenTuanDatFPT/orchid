@@ -1,0 +1,57 @@
+.navbarBrand {
+  color: #1e3a8a !important;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.navLink,
+.navLink:visited {
+  color: #1e3a8a !important;
+  font-weight: 600;
+  padding: 8px 18px !important;
+  border-radius: 8px;
+  transition: color 0.2s, background 0.2s, box-shadow 0.2s, transform 0.1s;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.navLinkActive,
+.navLink:focus,
+.navLink:hover {
+  color: #fff !important;
+  background: #2563eb !important;
+  box-shadow: 0 2px 8px #3b82f655;
+  transform: translateY(-2px) scale(1.04);
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.bgBodyTertiary {
+  background: linear-gradient(90deg, #dbeafe 0%, #bae6fd 100%) !important;
+  box-shadow: 0 2px 12px 0 #3b82f655;
+}
+
+.homeText {
+  color: inherit !important;
+}
+
+.navLinkActive .homeText {
+  color: #fff !important;
+}
+
+.homeIcon {
+  color: inherit !important;
+  transition: color 0.2s;
+}
+
+.iconActive {
+  color: #fff !important;
+}
+
+.iconTransition {
+  transition: color 0.2s;
+}
